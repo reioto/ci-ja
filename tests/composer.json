@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phpunit/PHPUnit": ">=3.7.0"
+    }
+}

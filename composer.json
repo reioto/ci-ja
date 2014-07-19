@@ -1,0 +1,13 @@
+{
+    "name": "reioto/ci-ja",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "CodeIgniter",
+        "CI",
+        "japanese",
+        "language package"
+    ],
+    "description": "Japanese package for CodeIgniter",
+    "license": "BSD-3-Clause"
+}
