@@ -13,16 +13,10 @@ Auto-Installation via composer
         "reioto/ci-ja": "dev-master"
     },
     "scripts": {
-        "post-package-install": [
-            "mkdir -p system/language",
+        "pre-autoload-dump": [
+            "mkdir -p system/language/japanese",
+            "rm -Rf system/language/japanese",
             "cp -Rf vendor/reioto/ci-ja/language/japanese system/language/"
-        ],
-	"post-package-update": [
-	    "rm -Rf system/language/japanese",
-	    "cp -Rf vendor/reioto/ci-ja/language/japanese system/language/"
-	],
-        "post-package-uninstall": [
-            "rm -Rf system/language/japanese"
         ]
     }
 }
