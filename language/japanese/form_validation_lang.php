@@ -17,6 +17,7 @@ $lang['is_numeric']			= "%s 欄には、数値以外は入力できません。"
 $lang['integer']			= "%s 欄には、整数以外は入力できません。";
 $lang['regex_match']		= "%s 欄は、正しい形式ではありません。";
 $lang['matches']			= "%s 欄が %s 欄と一致しません。";
+$lang['is_unique'] 			= "%s 欄には、他で使われている値は入力できません。";
 $lang['is_natural']			= "%s 欄には、正の整数以外は入力できません。";
 $lang['is_natural_no_zero']	= "%s 欄には、0より大きい整数以外は入力できません。";
 $lang['decimal']			= "%s 欄は10進数しか入力できません。";
