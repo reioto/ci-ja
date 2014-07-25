@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Files should be normalized
+
+*.php text
+*.html text
+*.txt text
+
